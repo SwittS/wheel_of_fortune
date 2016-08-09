@@ -1,6 +1,11 @@
 class WheelOfFortune
-  def initialize
-    p "Happy coding!"
+  attr_reader :theme, :guesses
+
+  def initialize(params)
+    @theme = params[:theme] || ""
+    @phrase = params[:phrase] || ""
+    @remaining_characters = unique_chars
+    @guesses = []
   end
 
   def to_s

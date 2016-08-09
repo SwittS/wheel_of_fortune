@@ -1,7 +1,7 @@
 # THIS FILE PERFORMS RSPEC TESTS ON `wheel_of_fortune.rb`
 # TO RUN YOUR TESTS TYPE: `rspec spec/wheel_of_fortune_spec.rb`
 
-# require "./solution/wheel_of_fortune.rb"   # use this line to see passing tests
+require "./solution/wheel_of_fortune.rb"   # use this line to see passing tests
 require "./wheel_of_fortune.rb"              # use this line to test your code
 
 ##########################
